@@ -1,0 +1,190 @@
+html{
+    font-size: 100%;
+    font-family: 'Merienda', cursive;
+}
+
+body{
+    margin:0;
+}
+
+#navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(194, 159, 202);
+    padding-top: 40px;
+    color: black;
+    margin: 0;
+    text-align: right;
+    
+}
+
+#navbar a{
+    display: inline-block;
+    width: 7%;
+    font-size: 25px;
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+    
+}
+
+#welcome-section{
+    margin-top: 115px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://image.freepik.com/free-vector/business-people-working-laptop-development_1262-18907.jpg);
+    background-blend-mode: lighten;
+    background-color:  rgba(194, 159, 202, 0.897);
+}
+
+h1{
+    font-size: 2.8em;
+    text-shadow: 3px 2px #d4105b;
+}
+
+h3{
+    font-size: 1.8em;
+    color: rgb(100, 3, 190);
+}
+
+
+#projects{
+    background-image: linear-gradient(rgb(228, 207, 236), rgb(169, 79, 187));
+    width:100%;
+    margin-top: 0;
+    padding-bottom: 100px;
+
+}
+
+h2{
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin:0;
+    font-size: 1.7em;
+}
+
+#projects a{
+    text-decoration: none;
+    color: white;  
+    cursor:pointer; 
+}
+
+
+img{
+    width  : 100%;
+    height : 300px;  
+}
+
+
+.row {
+    display: flex;
+    text-align: center;
+    font-size: 1.2em;
+}
+  
+.column {
+    flex: 25%;
+    padding: 1px;
+    border:1px solid rgb(167, 4, 99);
+    border-radius: 3px;
+    background-color: rgb(167, 4, 99);
+    margin:5px;
+}
+  
+
+#contact{
+    background-color: rgb(50, 6, 61);
+    
+}
+
+.contacts{
+    font-size:2.4em;
+    color:white;
+    text-align: center;
+    padding-top: 40px;
+    margin:0;
+    
+}
+
+.bottom{
+    text-align: center;
+    font-size: 1.2em;
+    color:cornsilk;
+    padding-bottom: 50px;
+    margin:0;
+}
+
+.contact-links {
+    display:flex;
+    justify-content: center;
+    width:100%;
+     
+}
+  
+.contact-details {
+    width: 30%;
+    margin-left:180px;
+    text-decoration: none;
+    color:white;
+    font-size: 2em;
+    transition: transform 0.3s ease-out;
+    padding-bottom: 50px;
+}
+  
+.contact-details:hover {
+    transform: translateY(8px);
+}
+
+@media (max-width:700px) {
+    body{
+        width:100%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9em;
+    }
+
+    .contacts{
+        font-size:1.4em;
+    }
+    
+    .bottom{
+        font-size: 0.7em;
+    }
+
+    h1{
+        font-size: 1.4em;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+
+    .contact-links{
+        flex-wrap: wrap;
+    }
+
+    #navbar{
+        text-align: center;
+    }
+
+    #navbar a{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
